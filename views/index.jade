@@ -1,5 +1,133 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	h1= title
+	h2 <em>March 26th, 2013 - April 15, 2013</em>
+	h2 Build a Windows 8 App and Win a <strong>FREE Trip to Microconf</strong>!
+	.note Must be a US resident to win
+
+	article#prizes.clearfix
+		img.pull-right(src='/images/surface.jpg', alt='Microsoft Surface')
+		h3 Prizes
+		ul
+			li
+				span 1st Place - Ticket to MicroConf, Plane Ticket from anywhere in the US, Hotel in Las Vegas, Surface RT
+			li
+				span 2nd Place - Ticket to MicroConf, Surface RT
+			li
+				span 3rd Place - Surface RT
+
+	article#howtoenter
+		h3 How To Enter
+		p To enter, send an email with your name, and a brief description of your app to <a href="mailto:timothy.strimple@microsoft.com">timothy.strimple@microsoft.com</a>. Build a Cool Windows 8 App and submit it by April 15. We will contact you with information on how to present your app to the judges. You must submit the app to the store in order to win!
+
+	article#entry
+		h3 Entry Requirements
+		p Each participant must create a Windows Store app which will be presented to the judges.
+		p The app cannot have been published to the Windows Store prior to March 26th, 2013.
+		p Your app must run on Windows 8 or Windows RT. You can get access to a 90-day trial of Windows 8 RTM here or purchase a full Windows upgrade license from here. If you have a Mac, you can download Parallels then run Windows 8.
+		p Participants in the contest will be contacted by a Microsoft Technical Evangelist who will be able to provide guidence and technical assistance in building the app.
+
+	article#judging
+		h3 Judging Criteria
+		p At the end of the contest, the judges will review all eligible entries received and select the top three based on the judging criteria described below.
+
+		table.table.table-bordered
+			tr
+				th Criteria
+				th Description
+				th Weighting
+			tr
+				td Viability
+				td The first step in building a great app is identifying the need you seek to meet with your app. This could be a problem you wish to solve, a task your app will help your users do, or maybe a better, faster way to accomplish something. A successful app will meet an important need and be part of a sustainable business.
+				td 20%
+			tr
+				td Windows Experience Design and User Experience
+				td Windows experience design is an important part of building a great Windows Store app. Apps must place a focus on great user experience and design. Key elements for your Team to address:
+					ul
+						li Tailored User Experience – Does the app have clear user experience goals and well-defined user scenarios?
+						li Windows experience styling and layout – Does the app use typography and whitespace to organize the content and provide a consistent structure? Are the UI elements and content placed on a grid to create a structured and consistent layout?
+						li Interactions and Navigation – Can content be manipulated directly? Are additional commands placed in the app bar to let users focus on the current view? Is additional chrome minimized and tucked away in transient UI? Did you use Semantic Zoom where appropriate?
+						li Fast & Fluid – Is the app designed for touch? Did you use animations to create a sense of fluidity and continuity in the app? Is the UI responsive?
+				td 30%
+			tr
+				td Windows 8 Platform
+				td How does your Team's app leverage Windows 8 platform features to create a unique and powerful solution? The judges will be looking for creative and effective use of the Windows 8 app model and new platform features. Key areas for making use of the Windows 8 platform are listed below:
+					ul
+						li Views – Does the app adjust to different screen resolutions and orientations? Is there a customized snap view?
+						li Contracts – Does the app make use of contracts as appropriate to the defined user scenarios?
+						li Tiles – Does the app make effective use of a live tile to show dynamic, personalized content?
+						li Notifications – Does the app use notifications appropriately and effectively to convey important information to the user?
+						li Roaming – Does the app use cloud services to roam data or settings when and if applicable?
+				td 30%
+			tr
+				td Originality and Innovation
+				td How unique and original is your Team’s idea? How well does your app compete against any competitors? How does your Team’s app make innovative usage of the Windows 8 platform to meet your users’ needs?
+				td 20%
+
+		p If you are a potential winner, we will notify you by sending a message to the e-mail address, the phone number, or mailing address (if any) provided at time of entry within seven (7) days following completion of judging. If the notification that we send is returned as undeliverable, or you are otherwise unreachable for any reason, we may award to a runner-up.
+
+		p If there is a dispute as to who is the potential winner, we will consider the potential winner to be the authorized account holder of the e-mail address used to enter the Contest.
+
+		p If you are a potential winner, we may require you to sign an Affidavit of Eligibility, Liability/Publicity Release and a W-9 tax form or W-8 BEN tax form within 10 days of notification. If you complete a tax form, you will be issued an IRS Form 1099 the following January, for the actual value of the prize. You are advised to seek independent counsel regarding the tax implications of accepting a prize. If you are a potential winner and you are 18 or older, but are considered a minor in your place of legal residence, we may require your parent or legal guardian to sign all required forms on your behalf. If you do not complete the required forms as instructed and/or return the required forms within the time period listed on the winner notification message, we may disqualify you and select a runner-up.
+
+		p If you are confirmed as a winner of this Contest:
+			ul
+				li You may not exchange your prize for cash or any other merchandise or services. However, if for any reason an advertised prize is unavailable, we reserve the right to substitute a prize of equal or greater value; and
+				li You may not designate someone else as the winner. If you are unable or unwilling to accept your prize, we may award it to a runner up; and
+				li If you accept a prize, you will be solely responsible for all applicable federal, state, and local taxes related to accepting the prize; and
+				li If you are otherwise eligible for this Contest, but are considered a minor in your place of residence, we may award the prize to your parent/legal guardian on your behalf; and
+				li Unless otherwise noted, all prizes are subject to their manufacturer's warranty and / or terms and conditions.
+
+	article#eligibility
+		h3 Eligibility Requirements
+		p You are eligible to enter this Contest if you meet the following requirements at time of entry:
+		ul
+			li
+				span <strong>You are</strong> an individual or team building a Windows Store app that runs on tablets, laptops and PCs.
+			li
+				span <strong>Your app must NOT</strong> be submitted or previously published to the Windows Store
+			li
+				span <strong>You can</strong> submit an app that is available on the iOS App Store, Google Play or other platforms other than the Windows Store
+			li
+				span <strong>You are</strong> 18 years of age or older; and ◦If you are 18 years of age or older, but are considered a minor in your place of residence, you should ask your parent’s or legal guardian’s permission prior to submitting an entry into this Contest.
+			li
+				span <strong>You are NOT</strong> a resident of any of the following countries: Cuba, Iran, North Korea, Sudan, or Syria.
+				div.note <strong>PLEASE NOTE:</strong> U.S. export regulations prohibit the export of goods and services to Cuba, Iran, North Korea, Sudan, and Syria. Therefore residents of these countries/regions are not eligible to participate.
+			li
+				div <strong>You are NOT</strong> an employee of Microsoft Corporation or an employee of a Microsoft subsidiary; and
+				div <strong>You are NOT</strong> involved in any part of the administration or execution of this Contest; and
+				div <strong>You are NOT</strong> an immediate family (parent, sibling, spouse, child) or household member of a Microsoft employee, an employee of a Microsoft subsidiary, or a person involved in any part of the administration and execution of this Contest.
+
+		p This Contest is void outside the geographic area described above and wherever else prohibited by law.
+
+	article#legal
+		h3 Legal Information
+		p <strong>PLEASE NOTE:</strong> It is your sole responsibility to review and understand your employer’s policies regarding your eligibility to participate in this Contest. If you are participating in violation of your employer’s policies, you may be disqualified from entering or receiving prizes. Microsoft disclaims any and all liability or responsibility for disputes arising between an employee and their employer related to this matter, and prizes will only be awarded in compliance with the employer’s policies.
+
+		p <strong>GOVERNMENT EMPLOYEES:</strong> Microsoft is committed to complying with government gift and ethics rules and therefore government employees are not eligible.
+
+		p Other than what is set forth below, we are not claiming any ownership rights to your entry. However, by submitting your entry, you:
+
+		ul
+			li are granting us an irrevocable, royalty-free, worldwide right and license to: (i) use, review, assess, test and otherwise analyze your entry and all its content in connection with this Contest; and (ii) feature your entry and all content in connection with the marketing, sale, or promotion of this Contest (including but not limited to internal and external sales meetings, conference presentations, tradeshows, and screen shots of the Contest entry in press releases) in all media (now known or later developed);
+			li agree to sign any necessary documentation that may be required for us and our designees to make use of the rights you granted above;
+			li understand and acknowledge that the Sponsor(s) may have developed or commissioned materials similar or identical to your submission and you waive any claims you may have resulting from any similarities to your entry;
+			li Understand that we cannot control the incoming information you will disclose to our representatives in the course of entering, or what our representatives will remember about your entry. You also understand that we will not restrict work assignments of representatives who have had access to your entry. By entering this Contest, you agree that use of information in our representatives’ unaided memories in the development or deployment of our products or services does not create liability for us under this agreement or copyright or trade secret law;
+			li understand that you will not receive any compensation or credit for use of your entry, other than what is described in these Official Rules
+
+		p Please note that following the end of this Contest your entry may be posted on a website selected by us for viewing by visitors to that website. We are not responsible for any unauthorized use of your entry by visitors to this website. While we reserve these rights, we are not obligated to use your entry for any purpose, even if it has been selected as a winning entry.
+
+		p If you do not want to grant us these rights to your entry, please do not enter this Contest.
+
+		p By entering this Contest you agree:
+
+		ul
+			li To abide by these Official Rules; and
+			li To release and hold harmless Microsoft, Microconf and each of their respective parents, subsidiaries, affiliates, employees and agents from any and all liability or any injury, loss or damage of any kind arising from or in connection with this Contest, or any prize won; and
+			li That Sponsors decisions will be final and binding on all matters related to this Contest; and
+			li That, by accepting a prize, Sponsors may use of your proper name and state of residence online and in print, or in any other media, in connection with this Contest, without payment or compensation to you, except where prohibited by law.
+
+		p If someone cheats, or a virus, bug, bot, catastrophic event, or any other unforeseen or unexpected event that cannot be reasonably anticipated or controlled, (also referred to as force majeure) affects the fairness and / or integrity of this Contest, we reserve the right to cancel, change or suspend this Contest. This right is reserved whether the event is due to human or technical error. If a solution cannot be found to restore the integrity of the Contest, we reserve the right to select winners from among all eligible entries received before we had to cancel, change or suspend the Contest.
+
+		p If you attempt or we have strong reason to believe that you have compromised the integrity or the legitimate operation of this Contest by cheating, hacking, creating a bot or other automated program, or by committing fraud in ANY way, we may seek damages from you to the fullest extent permitted by law. Further, we may disqualify you, and ban you from participating in any of our future Contests, so please play fairly.

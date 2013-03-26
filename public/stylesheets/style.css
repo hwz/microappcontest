@@ -1,8 +1,37 @@
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 30px 50px;
 }
 
-a {
-  color: #00B7FF;
+h1 {
+	color: #FFFFFF;
+}
+
+h2, h3, h4, th {
+	color: #DDDDDD;
+}
+
+em {
+	font-style: normal;
+	color: rgb(0, 169, 255);
+}
+
+strong, a {
+	color: #FF4500;
+}
+
+.note {
+	font-style: italic;	
+	color: #DDDDDD;
+}
+
+#prizes {
+	margin-top: 25px;
+	padding: 5px 25px;
+	background-color: #FFFFFF;
+	color: #333333;
+}
+
+#prizes h3 {
+	color: #333333;
 }
