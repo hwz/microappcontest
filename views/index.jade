@@ -142,10 +142,6 @@ block content
 
 	script
 		$(document).ready(function() {
-			var $spy = $('body');
-			$spy.scrollspy();
-			$spy.bind('activate', function(e) {
-				console.log(e);
-			});
+			$('body').scrollspy();
 		});
 		
