@@ -1,6 +1,7 @@
 
 body {
   padding: 30px 50px;
+  width: 860px;
 }
 
 h1 {
@@ -20,6 +21,10 @@ strong, a {
 	color: #FF4500;
 }
 
+.active {
+	color: red;
+}
+
 .note {
 	font-style: italic;	
 	color: #DDDDDD;
@@ -34,4 +39,10 @@ strong, a {
 
 #prizes h3 {
 	color: #333333;
+}
+
+#menu {
+	position: fixed;
+	top: 50px;
+	left: 940px;
 }
