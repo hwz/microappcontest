@@ -1,34 +1,48 @@
 
 body {
-  padding: 30px 50px;
-  width: 860px;
+	background-image:url('/images/bg.png');
+	padding-left:15%;
+  	padding-right:15%;
 }
 
-h1 {
-	color: #FFFFFF;
+.hero-unit > h1 {
+	color: #000000;
 }
 
-h2, h3, h4, th {
-	color: #DDDDDD;
+.hero-unit > h2, h3 {
+	color: #222222;
 }
 
 em {
 	font-style: normal;
-	color: rgb(0, 169, 255);
+	color: #FF4500;
 }
 
 strong, a {
-	color: #FF4500;
+	color: ##fe6600;
 }
 
 .active {
 	color: red;
 }
 
+#header-hero {
+	height: 250px;
+	padding-top: 30px;
+	background-image:url('/images/vegas.jpg');
+	background-size: cover;
+	background-color:#cccccc;
+	margin: 0px;
+}
+
 .note {
 	font-style: italic;	
-	color: #DDDDDD;
+	color: #444444;
 }
+.affix {
+  top: 400px;
+}
+
 
 #prizes {
 	margin-top: 25px;
@@ -37,16 +51,23 @@ strong, a {
 	color: #333333;
 }
 
-#prizes h3 {
+#prizes > h3 {
 	color: #333333;
-}
-
-#menu {
-	position: fixed;
-	top: 50px;
-	left: 940px;
 }
 
 .signup {
 	margin: 8px 4px;
 }
+
+#content-container {
+	background-color: #FFFFFF;
+}
+
+#menu {
+	padding-left: 20px;
+}
+#sections {
+	padding-top: 40px;
+	padding-right: 20px;
+}
+  
